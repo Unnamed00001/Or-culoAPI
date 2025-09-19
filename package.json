@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup src", 
-    "start": "npm run dist && node dist/src/index.js",                                       
+    "start": "npm dist && node dist/index.js",                                       
     "dev": "tsx watch --env-file=.env src/server.ts"                      
-  },
+  }, ./
   "keywords": [],
   "author": "",
   "license": "ISC",
