@@ -34,16 +34,6 @@ interface Carta {
 }
 ```
 
-### **Filtros de Busca**
-
-```ts
-interface CartaFiltro {
-  categoria?: 'amor' | 'trabalho' | 'sorte' | 'aviso';
-  palavraChave?: string;
-  nome?: string;
-}
-```
-
 ---
 
 ## **3. Estrutura do Projeto**
@@ -85,16 +75,11 @@ oraculo-api/
 
 ## **4. Dependências**
 
-### **Produção**
-
-```bash
-npm install express cors dotenv uuid
-```
 
 ### **Desenvolvimento**
 
 ```bash
-npm install -D typescript ts-node-dev @types/node @types/express @types/cors
+npm install
 ```
 
 ---
