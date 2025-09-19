@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src", 
-    "start": "npm dist && node dist/index.js",                                       
-    "dev": "tsx watch --env-file=.env src/server.ts"                      
+    "build": "tsup src",
+    "start": "npm dist && node dist/index.js",
+    "dev": "tsx watch --env-file=.env src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,13 +15,13 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^20.19.14",
-    "tsup": "^8.5.0",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "mongoose": "^8.18.1"
+    "mongoose": "^8.18.1",
+    "tsup": "^8.5.0"
   }
 }
