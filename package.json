@@ -7,7 +7,7 @@
     "build": "tsup src", 
     "start": "npm dist && node dist/index.js",                                       
     "dev": "tsx watch --env-file=.env src/server.ts"                      
-  }, ./
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
