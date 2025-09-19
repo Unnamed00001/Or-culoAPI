@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "tsup src",
-    "start": "npm run  dist && --env-file=.env node/server.js",
+    "dist": "tsup src --out-dir dist --format cjs",
+    "start": "node dist/server.js",
     "dev": "tsx watch --env-file=.env src/server.ts"
   },
   "keywords": [],
