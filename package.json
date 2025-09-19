@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "tsup src --out-dir dist --format cjs",
+    "build": "tsup src --out-dir dist --format cjs",
     "start": "node dist/server.js",
     "dev": "tsx watch --env-file=.env src/server.ts"
   },
