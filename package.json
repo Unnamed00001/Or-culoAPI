@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup src/server.ts --out-dir dist", 
-    "start": "node dist/server.js",                                       
+    "start": "node --env-file=.env dist/server.js",                                       
     "dev": "tsx watch --env-file=.env src/server.ts"                      
   },
   "keywords": [],
